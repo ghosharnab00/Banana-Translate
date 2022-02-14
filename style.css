@@ -1,14 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
-body{
-    font-family: 'Lato', sans-serif;
-    max-width: 80%;
+:root{
+    --primary-color:#f2c300;
+    --secondary-color: #00b844;
+    --third-color: #df0000;
+}
+body {
+    font-family: 'kalam', cursive;
     margin: 0px auto;
-    width: 100%;
-    display: block;
+    max-width: 80%;
 }
 
-textarea{
-    margin: 20px;
-    padding: 1rem;
-    border: 2px solid blue;}
+.heading {
+background-color: var(--primary-color);
+
+}
+.heading h1 {
+    justify-content: center;
+    display: flex;
+}
+.heading p {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.translate {
+    margin-top: 50px;
+}

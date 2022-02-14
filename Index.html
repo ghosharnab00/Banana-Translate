@@ -9,12 +9,16 @@
     <title>Klingon Translator App</title>
 </head>
 <body>
-    <header> 
+    <header class="heading"> 
         <h1>Welcome to Klingon Translator</h1>
-    <p>May the force be with you!</p></header>
-    <textarea name="user_input" id="user_input" placeholder="what do you want to say" rows="10" cols="50"></textarea>
-    <button class="click_me" id="click_me">Translate</button>
-
-    <textarea name="txt-output" id="txt-output" placeholder="Your Klingon translation" rows="10" cols="50"></textarea>
+        <p>May the force be with you!</p>
+    </header>
+    <div class="container">
+        <textarea class="user-input" id="user-input" placeholder="what do you want to say" rows="10" cols="50"></textarea>
+        <button class="translate" id="translate">Translate</button>
+        <div id="output-heading" class="output-heading"><h3>Here's the Klingon Translation you're looking for 👇</h3></div>
+        <div id="output" class="output"></div>
+    </div>
+   
 </body>
 </html>
