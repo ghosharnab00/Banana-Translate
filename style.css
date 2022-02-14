@@ -9,20 +9,16 @@ body {
     font-family: 'kalam', cursive;
     margin: 0px auto;
     max-width: 80%;
+    
 }
 
 .heading {
 background-color: var(--primary-color);
+text-align: center;
+    display: block;
 
 }
-.heading h1 {
-    justify-content: center;
-    display: flex;
-}
-.heading p {
-    justify-content: center;
-    display: flex;
-}
+
 
 .container {
     display: flex;
@@ -34,6 +30,16 @@ background-color: var(--primary-color);
     padding: 10px;
 }
 
+img {
+    padding-top: 50px;;
+}
+
 .translate {
     margin-top: 50px;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    display: block;
 }
