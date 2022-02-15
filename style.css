@@ -14,7 +14,7 @@ body {
 
 .heading {
 background-color: var(--secondary-color);
-color:white;
+color:var(--primary-color);
 text-align: center;
 display: block;
 border-bottom-left-radius: 1rem;

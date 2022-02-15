@@ -1,15 +1,14 @@
 var txtInput = document.querySelector("#user-input");
 var trans = document.querySelector("#translate");
-console.log(txtInput)
+var output = document.querySelector("#output");
+
+var api = "https://api.funtranslations.com/translate/klingon.json";
+console.log(txtInput.textContent)
 
 function clickHandler() {
-    if (txtInput != null){
         console.log("input", txtInput.value);
-    }
-    else {
-        return null;
-    }
-};
+        output.innerHTML = txtInput.value;
+}
 
 
 trans.addEventListener("click", clickHandler);
