@@ -1,10 +1,15 @@
-var txtInput = document.querySelector(".user_input");
-var trans = document.querySelector(".click_me");
+var txtInput = document.querySelector("#user-input");
+var trans = document.querySelector("#translate");
 console.log(txtInput)
 
 function clickHandler() {
-    alart("clicked");
-    console.log("input", txtInput.value);
+    if (txtInput != null){
+        console.log("input", txtInput.value);
+    }
+    else {
+        return null;
+    }
 };
+
 
 trans.addEventListener("click", clickHandler);
