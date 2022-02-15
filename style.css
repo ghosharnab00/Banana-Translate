@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 :root{
-    --primary-color:#f2c300;
-    --secondary-color: #00b844;
+    --primary-color:gold;
+    --secondary-color: black;
     --third-color: #df0000;
 }
 body {
@@ -13,12 +13,13 @@ body {
 }
 
 .heading {
-background-color: var(--primary-color);
+background-color: var(--secondary-color);
+color:white;
 text-align: center;
-    display: block;
-
+display: block;
+border-bottom-left-radius: 1rem;
+border-bottom-right-radius: 1rem;
 }
-
 
 .container {
     display: flex;
@@ -36,10 +37,97 @@ img {
 
 .translate {
     margin-top: 50px;
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 8px 24px;
+    color: var(--secondary-color);
+    ;
+    /* display: block; */
+    
+    margin: auto;
+
+    border: 2px solid;
+    border-color: var(--secondary-color);
+    max-width: 90%;
 }
 
 .footer {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     text-align: center;
     display: block;
+}
+
+.user-input {
+    border: 1.5px solid var(--secondary-color);
+    display: block;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    /* font-family: monospace; */
+    text-align: center;
+    max-width: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-size: medium;
+}
+
+.output {
+    border: 1.5px solid var(--secondary-color);
+    display: block;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    /* font-family: monospace; */
+    text-align: center;
+    max-width: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: medium;
+}
+.output-heading {
+    text-align: center;
+}
+/* footer */
+
+.footer {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 1rem .5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* margin-bottom: 0px; */
+    color: var(--primary-color);
+}
+
+.footer .footer-header {
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.footer .link {
+    color: var(--primary-color);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+.list-non-bullet {
+    list-style: none;
+    
+}
+
+.list-item-inline {
+    display: inline;
+    margin: 0rem .5rem;
+    
+}
+
+.list-item-inline .link {
+    text-decoration: none;
 }
