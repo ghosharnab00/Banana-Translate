@@ -24,8 +24,8 @@ function callBack(){
         .then(response => response.json())
         .then( json => {var output_text = json.contents.translated;
                 output.innerHTML = output_text; })
-                .catch(err => alert("Server Limit Crossed , try after 1 hour"))
-        }
-
+                .catch(err => {console.log(err); alert("Server Limit Crossed , try after 1 hour")
+        })
+}
 
         trans.addEventListener("click", callBack);
