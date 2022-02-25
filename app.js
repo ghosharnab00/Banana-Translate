@@ -12,12 +12,6 @@ function getReq(url){
         return (url + "?text=" + txtInput.value);
 }
 
-//function clickHandler() {
-  //      fetch (getReq(testApi))
-    //    .then(function res(response){ return response.json()})
-      //  .then( function js(json) { var output_text = json.contents.translated; output.innerHTML = output_text })
-
-//}
 
 function callBack(){
         fetch (getReq(url))
