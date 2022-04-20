@@ -1,4 +1,4 @@
-# Email-Validator
+# Klingon-Translator
 A simple web app to translate your sentences into Klingon
 
 <div align="center">
